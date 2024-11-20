@@ -1,0 +1,92 @@
+ .hero > .container{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+}
+.h1{
+  font-size: 4rem;
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0;
+  color: #372430;
+}
+.h2{
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: "Ga Maamli", sans-serif;
+    color: #492945;
+}
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(164, 150, 156) 0%, rgba(148,187,233,1) 100%);
+}
+.cat-profile{
+    border-radius: 50%;
+    height: 150px;
+}
+.hero-paragraph{
+    font-size: 1.5rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: #4f0445;
+    
+}
+
+.section-2 > .container{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 200px 20rem;
+    justify-content: center;
+    text-align: center;
+}
+.h2-skills{
+    grid-column: span 2;
+    font-size: 2rem;
+    font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0;
+  color: #372430;
+  
+}
+.gamer{
+    width: 200px;
+    height: 150px;
+    margin-left: 5%;
+    float: right;
+    margin-bottom: 20px;
+    
+}
+.cat-programmer{
+    width: 200px;
+    height: 150px;
+    margin-left: 20%;
+    float: right;
+    margin-bottom: 30px;
+}
+.section-2 p{
+    font-size: 1.35rem;
+    margin-left: 0;
+    color: #4f0445;
+    
+}
+
+.button{
+    background-color: #c56db7;
+    border-color: #dfcbdc;
+    width: 15vw;
+    height: 5vh;
+    
+}
+.a{
+    color: #050205;
+}
+.div-b{
+    grid-column: span 2;
+    margin-bottom: 20px;
+}
